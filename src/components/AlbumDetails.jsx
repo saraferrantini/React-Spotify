@@ -1,6 +1,7 @@
-//AlbumDetails
+//☑️AlbumDetails
 import React from "react";
 
+//funzione AlbumDetails, che riceve un oggetto album come prop e restituisce un elemento <div> che mostra i dettagli dell'album.
 function AlbumDetails({ album }) {
   return (
     <div className="album-details">
